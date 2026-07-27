@@ -28,13 +28,13 @@
 
 ```mermaid
 graph TD
-    A[Synthetic / Custom IndiGo Flight Dataset (100k+ Records)] --> B[Python ETL & Cleaning Loader]
-    B --> C[(SQLite Relational Database & QA Governance)]
-    C --> D1[Statistical Analysis Engine: Univariate, Bivariate, Multivariate, Regression]
-    C --> D2[NLP Analytics Module: Sentiment & TF-IDF Topic Extraction]
-    C --> D3[Excel 365 Automated Report Generator openpyxl]
-    C --> D4[Interactive Dashboard Streamlit & Power BI Schema]
-    D1 --> E[Executive Insights & Strategic Action Plan]
+    A["Synthetic / Custom IndiGo Flight Dataset (100k+ Records)"] --> B["Python ETL & Cleaning Loader"]
+    B --> C[("SQLite Relational Database & QA Governance")]
+    C --> D1["Statistical Analysis Engine: Univariate, Bivariate, Multivariate, Regression"]
+    C --> D2["NLP Analytics Module: Sentiment & TF-IDF Topic Extraction"]
+    C --> D3["Excel 365 Automated Report Generator openpyxl"]
+    C --> D4["Interactive Dashboard Streamlit & Power BI Schema"]
+    D1 --> E["Executive Insights & Strategic Action Plan"]
     D2 --> E
     D3 --> E
     D4 --> E
