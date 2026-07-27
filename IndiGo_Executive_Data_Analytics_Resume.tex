@@ -1,0 +1,129 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+
+\usepackage[margin=0.35in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\definecolor{primary}{RGB}{0,51,102} % IndiGo Corporate Navy Blue
+
+\pagestyle{empty}
+\urlstyle{same}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=primary,
+    linkcolor=primary
+}
+
+\titleformat{\section}
+{\large\bfseries\color{primary}\uppercase}
+{}{0em}{}
+[\titlerule]
+
+\titlespacing*{\section}{0pt}{7pt}{3pt}
+
+\setlist[itemize]{leftmargin=*,noitemsep,topsep=1pt}
+
+\begin{document}
+
+% ====================================================================
+% HEADER / CONTACT INFORMATION
+% ====================================================================
+\begin{center}
+    {\Huge \bfseries \color{primary} TULSHIRAM KADAM} \\[3pt]
+    {\bfseries Executive Data Analytics | SQL | Python | SPSS | Power BI | Excel 365 | Predictive Modeling} \\[3pt]
+    \small Pune, India \quad \textbullet \quad +91-9881434642 \quad \textbullet \quad \href{mailto:kadamtulshiram722@gmail.com}{kadamtulshiram722@gmail.com} \\
+    \small \href{https://linkedin.com/in/tulshiram-kadam}{LinkedIn Profile} \quad \textbullet \quad \href{https://github.com/Ramkadammmm}{GitHub Portfolio: github.com/Ramkadammmm}
+\end{center}
+\vspace{-6pt}
+
+% ====================================================================
+% PROFESSIONAL SUMMARY
+% ====================================================================
+\section{Professional Summary}
+Results-driven \textbf{Data Analytics Professional} with \textbf{2.5+ years of experience} specializing in \textbf{advanced statistical modeling (SPSS/Python), SQL database engineering, automated Excel 365 reporting, and Power BI dashboards}. Proven track record in transforming complex, large-scale operational datasets into actionable business insights, conducting \textbf{univariate, bivariate, and multivariate analysis}, and building \textbf{predictive analytics \& NLP text mining models}. Adept at cross-functional stakeholder communication, data quality governance, and driving operational efficiency.
+
+% ====================================================================
+% CORE TECHNICAL & FUNCTIONAL SKILLS
+% ====================================================================
+\section{Technical \& Functional Skills}
+\begin{itemize}
+    \item \textbf{Statistical Analysis \& SPSS:} Univariate, Bivariate \& Multivariate Analysis, Normality Testing, Welch T-Test, One-Way ANOVA, Chi-Square Test, OLS Linear Regression, Logistic Regression, SPSS Modeling
+    \item \textbf{Data Engineering \& SQL:} SQL (Complex Joins, CTEs, Window Functions), Databricks, Python (Pandas, NumPy, Statsmodels, Scikit-Learn, SciPy), ETL Pipelines, Data Profiling \& Cleansing
+    \item \textbf{Reporting \& Visualizations:} Power BI, DAX, Power Query, Excel 365 (openpyxl, Dynamic Pivots, KPI Cards, Conditional Formatting), Interactive Streamlit Web Apps
+    \item \textbf{Text Analytics \& Governance:} NLP (VADER Sentiment Analysis, TF-IDF Keyphrase Mining), Master Data Management (MDM), Data Quality Assurance (QA) Audits, Stakeholder Reporting
+\end{itemize}
+
+% ====================================================================
+% FEATURED PORTFOLIO PROJECTS
+% ====================================================================
+\section{Featured Key Projects}
+
+\textbf{IndiGo Airlines Executive Data Analytics \& Passenger NPS Audit Platform} \hfill \href{https://github.com/Ramkadammmm/indigo-data-analytics-project}{\textbf{GitHub Repository}} \\
+\textit{Tools: Python (Statsmodels, Scikit-Learn, NLTK), SQL (SQLite), Excel 365, Power BI, Streamlit} \hfill \textit{Jul 2026}
+\begin{itemize}
+    \item Engineered an end-to-end analytics pipeline analyzing \textbf{100,000+ passenger flight records} across \textbf{15 high-density routes}, evaluating On-Time Performance (OTP), flight delays, ticket yields, and customer satisfaction.
+    \item Designed a normalized \textbf{SQLite Relational Schema} and automated QA audit suite with zero integrity violations; wrote advanced \textbf{SQL CTEs and Window Functions} to rank flight delay drivers across booking channels.
+    \item Performed SPSS-equivalent \textbf{Statistical Modeling}: Welch T-Test ($p < 0.001$), One-Way ANOVA ($F = 42.10$), and Chi-Square tests ($X^2 = 312.4$) to measure satisfaction gaps across cabin classes and fleet types (A320neo, A321neo, ATR).
+    \item Built a \textbf{Logistic Regression model (AUC-ROC = 0.9988)} identifying delays $>30$ mins as the top Detractor driver (\textbf{Odds Ratio = 2.85}); applied \textbf{NLP VADER sentiment analysis} and \textbf{TF-IDF text mining} to isolate customer complaint root causes.
+    \item Automated executive reporting by developing an \textbf{Excel 365 report generator} (`openpyxl`) formatted with IndiGo brand palette, KPI cards, and dynamic pivot metrics, alongside an interactive \textbf{Streamlit / Power BI portal}.
+\end{itemize}
+\vspace{3pt}
+
+\textbf{AtliQ Grand Hospitality Group Revenue Analytics Dashboard} \hfill \href{https://app.powerbi.com/view?r=eyJrIjoiYTEwZTc0MmYtNzk4OC00NzhhLWFjN2MtMTZiMzU4NWU2OGJkIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9}{\textbf{Live Dashboard Link}} \\
+\textit{Tools: Power BI, SQL, DAX, Python} \hfill \textit{May 2025 -- Aug 2025}
+\begin{itemize}
+    \item Developed an end-to-end \textbf{Revenue Analytics Dashboard} using \textbf{Power BI, SQL, DAX, and Python}, analyzing \textbf{1.2M+ booking records} across 12+ properties, reducing manual reporting turnaround from \textbf{6 hours to under 30 minutes}.
+    \item Built \textbf{SQL} ETL pipelines and automated validation checks to consolidate multi-source operational data, achieving \textbf{98\% reporting accuracy} for RevPAR, ADR, and Occupancy \% metrics.
+    \item Designed interactive visuals tracking \textbf{25+ KPIs}, enabling leadership to optimize pricing strategies and drive an \textbf{11\% increase in occupancy} and \textbf{8\% improvement in total revenue}.
+\end{itemize}
+\vspace{3pt}
+
+\textbf{Enterprise Business Insights 360} \hfill \href{https://app.powerbi.com/view?r=eyJrIjoiZmMwNmJmYjUtMjUyYS00ZDg3LTgyMmYtMGRkYjgyYTZlMTIzIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9}{\textbf{Live Dashboard Link}} \\
+\textit{Tools: Power BI, SQL, Python, Financial Analytics} \hfill \textit{Jan 2024 -- Apr 2024}
+\begin{itemize}
+    \item Integrated \textbf{1.8M+ cross-functional records} (Sales, Finance, Supply Chain) into a unified Power BI platform, reducing manual reporting effort by \textbf{72\%} and enabling real-time executive decision-making.
+    \item Configured \textbf{30+ DAX measures} (Gross Margin, Net Sales, Forecast Accuracy), improving forecast accuracy by \textbf{14\%} and accelerating reporting delivery to under 20 minutes.
+\end{itemize}
+
+% ====================================================================
+% PROFESSIONAL EXPERIENCE
+% ====================================================================
+\section{Professional Experience}
+
+\textbf{Data Analyst - (Analytics COE)} \hfill \textbf{Oct 2025 -- Present} \\
+\textit{Smith + Nephew} \hfill \textit{Pune, India}
+\begin{itemize}
+    \item Executed \textbf{SQL} and \textbf{Databricks} workflows to transform and validate \textbf{850K+ master records}, improving overall data quality by \textbf{31\%} and ensuring strict data governance standards for executive reporting.
+    \item Developed automated \textbf{Python} data validation pipelines to detect duplicates, missing values, and format anomalies, reducing manual checks by \textbf{68 hours/month} and achieving \textbf{98\% data accuracy}.
+    \item Designed \textbf{Power BI} dashboards monitoring \textbf{12+ data quality KPIs}, reducing issue identification turnaround from \textbf{2 days to 4 hours}.
+    \item Collaborated with cross-functional business and technical teams to resolve \textbf{1,500+ data exceptions} via root-cause analysis, decreasing recurring quality issues by \textbf{37\%}.
+\end{itemize}
+\vspace{3pt}
+
+\textbf{Data Analyst} \hfill \textbf{Jan 2024 -- Sep 2025} \\
+\textit{ProAzure Software Solutions Pvt Ltd} \hfill \textit{Pune, India}
+\begin{itemize}
+    \item Built automated \textbf{SQL} and \textbf{Python} ETL pipelines to process \textbf{2.4M+ transactional records}, reducing daily data processing duration by \textbf{5.5 hours}.
+    \item Engineered data quality rules across \textbf{185K+ customer profiles}, improving data accuracy from \textbf{91\% to 98\%}.
+    \item Developed optimized \textbf{SQL} queries using joins, CTEs, and window functions to reconcile enterprise datasets, cutting monthly reconciliation effort by \textbf{42 hours}.
+    \item Standardized data transformation workflows in \textbf{Python} and \textbf{Databricks} for \textbf{320K+ monthly records}, resolving critical exceptions within \textbf{6 hours}.
+\end{itemize}
+
+% ====================================================================
+% EDUCATION & CERTIFICATIONS
+% ====================================================================
+\section{Education \& Certifications}
+\begin{itemize}
+    \item \textbf{B.E in Civil Engineering} --- SRCOE, Pune \hfill \textbf{2019 -- 2023}
+    \item \textbf{PG Certification in Data Science, ML \& GenAI} --- Data-Trained Institute of Technology
+    \item \textbf{Certifications:} SQL for Data Analytics, Power BI Data Analyst Associate (Preferred), Python for Data Science
+\end{itemize}
+
+\end{document}
